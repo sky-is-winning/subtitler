@@ -1,0 +1,7 @@
+config.txt
+yt-dlp.exe
+ytdlp_version.txt
+credentials.json
+token.json
+*.mp3
+*.srt

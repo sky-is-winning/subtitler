@@ -159,7 +159,7 @@ def upload_subs(video_id, transcript_filename):
             "snippet": {
                 "videoId": video_id,
                 "language": "en",
-                "name": "Subtitles",
+                "name": "OpenAI Whisper Subs",
             },
         },
         media_body=MediaFileUpload(transcript_filename, mimetype="application/x-subrip")
